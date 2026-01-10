@@ -7,33 +7,33 @@
 # Documentation: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 
 # Global default owners - will be requested for review on all PRs unless overridden
-* @trace-org/backend-team
+# * @trace-org/backend-team
 
 # Application core and business logic
-/lib/ @trace-org/backend-team @trace-org/payments-team
+# /lib/ @trace-org/backend-team @trace-org/payments-team
 
 # Database-related code
-/db/ @trace-org/database-team
-/models/ @trace-org/database-team @trace-org/payments-team
+# /db/ @trace-org/database-team
+# /models/ @trace-org/database-team @trace-org/payments-team
 
 # Configuration and infrastructure
-/config/ @trace-org/devops-team @trace-org/backend-team
+# /config/ @trace-org/devops-team @trace-org/backend-team
 
 # Express middleware
-/middleware/ @trace-org/backend-team
+# /middleware/ @trace-org/backend-team
 
 # API routes and controllers
-/routes/ @trace-org/backend-team @trace-org/payments-team
-/controllers/ @trace-org/payments-team
+# /routes/ @trace-org/backend-team @trace-org/payments-team
+# /controllers/ @trace-org/payments-team
 
 # Test suite - owned by specific maintainer
 /tests/ @anikeshk
 
 # Configuration files - require DevOps team review
-package.json @trace-org/devops-team
-package-lock.json @trace-org/devops-team
-.gitignore @trace-org/devops-team
-.env.example @trace-org/devops-team
+# package.json @trace-org/devops-team
+# package-lock.json @trace-org/devops-team
+# .gitignore @trace-org/devops-team
+# .env.example @trace-org/devops-team
 
 # Documentation
-*.md @trace-org/backend-team
+# *.md @trace-org/backend-team
